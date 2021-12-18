@@ -212,7 +212,7 @@ class OAuth2ConsumerBlueprint(BaseOAuthConsumerBlueprint):
         log.debug("state = %s", state)
         log.debug("redirect URL = %s", url)
         oauth_before_login.send(self, url=url)
-        return redirect(url)
+        return {"result":"success","url":url}
 
     def authorized(self):
         """
