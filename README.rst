@@ -1,5 +1,6 @@
 Flask-Dance |build-status| |coverage-status| |docs|
 ===================================================
+Customed for MY USE -> it returns the data instead of redirecting to the url, its very good for projects that have seperate backend and frontend so that you can bypass CORS error :)
 Doing the OAuth dance with style using Flask, requests, and oauthlib. Currently,
 only OAuth consumers are supported, but this project could easily support
 OAuth providers in the future, as well. The `full documentation for this project
